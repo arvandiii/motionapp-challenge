@@ -1,9 +1,9 @@
 // tests/facebookApi.test.ts
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import { fetchUserData } from '../src/services/facebookApi'; // Update the import path according to your project structure
-import { RateLimitError } from '../src/errors/RateLimitError';
-import { ApiError } from '../src/errors/ApiError';
+import { fetchUserData } from '../services/facebookApi'; // Update the import path according to your project structure
+import { RateLimitError } from '../errors/RateLimitError';
+import { ApiError } from '../errors/ApiError';
 
 const mock = new MockAdapter(axios);
 
